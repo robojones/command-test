@@ -33,5 +33,8 @@
     "eslint-config-ultra": "^0.4.5",
     "istanbul": "^0.4.5",
     "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "better-events": "^1.3.7"
   }
 }
