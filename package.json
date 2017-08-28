@@ -15,12 +15,12 @@
     "url": "git+https://github.com/robojones/command-test.git"
   },
   "keywords": [
-    "between",
-    "number",
-    "min",
-    "max",
-    "minimum",
-    "maximum"
+    "command",
+    "testing",
+    "test",
+    "promises",
+    "promise",
+    "commands"
   ],
   "author": "robojones",
   "license": "MIT",
