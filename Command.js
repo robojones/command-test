@@ -29,6 +29,7 @@ class Command extends BetterEvents {
     // save stderr
 
     this.err = ''
+    this.stderr = child.stderr
     const errDecoder = new StringDecoder('utf8')
 
     child.stderr.on('data', chunk => {
@@ -42,6 +43,7 @@ class Command extends BetterEvents {
     // save stdout
 
     this.out = ''
+    this.stdout = child.stdout
     const outDecoder = new StringDecoder('utf8')
 
     child.stdout.on('data', chunk => {
