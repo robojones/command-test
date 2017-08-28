@@ -125,3 +125,9 @@ This property is a `<string>` that stores everything that the command has writte
 
 #### Property: code
 This property stores the __exit code__ `<number>` of the command.
+
+#### Property: stdout
+This property is a reference to the stdout of the command's child_process
+
+#### Property: stderr
+This property is a reference to the stderr of the command's child_process
