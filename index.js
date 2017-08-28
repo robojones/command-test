@@ -41,7 +41,7 @@ async function fails(cmd) {
   await command.once('done')
 
   if (!command.code) {
-    throw new Error(`Command "${cmd}" exited with code 0.\n${command.out}`)
+    throw new Error(`Command "${cmd}" exited with code 0.`)
   }
 
   return command
