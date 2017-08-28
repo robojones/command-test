@@ -1,0 +1,37 @@
+{
+  "name": "command-test",
+  "version": "0.0.0",
+  "description": "The easy way to test commands.",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha",
+    "lint": "node_modules/eslint/bin/eslint.js ."
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robojones/command-test.git"
+  },
+  "keywords": [
+    "between",
+    "number",
+    "min",
+    "max",
+    "minimum",
+    "maximum"
+  ],
+  "author": "robojones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robojones/command-test/issues"
+  },
+  "homepage": "https://github.com/robojones/command-test#readme",
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-ultra": "^0.4.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0"
+  }
+}
