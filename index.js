@@ -1,5 +1,9 @@
 const Command = require('./Command')
 
+async function done(command) {
+  await Promise.race([command.once('done'), command.once('error')])
+}
+
 /**
  * Executes a command.
  * @param {string} cmd - The command.
@@ -8,7 +12,7 @@ const Command = require('./Command')
 async function command(cmd) {
   const command = new Command(cmd)
 
-  await command.once('done')
+  await done(command)
 
   return command
 }
@@ -21,7 +25,7 @@ async function command(cmd) {
 async function works(cmd) {
   const command = new Command(cmd)
 
-  await command.once('done')
+  await done(command)
 
   if (command.code) {
     throw new Error(`Command "${cmd}" exited with code ${command.code}.\n${command.err}`)
@@ -38,7 +42,7 @@ async function works(cmd) {
 async function fails(cmd) {
   const command = new Command(cmd)
 
-  await command.once('done')
+  await done(command)
 
   if (!command.code) {
     throw new Error(`Command "${cmd}" exited with code 0.`)

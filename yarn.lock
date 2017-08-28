@@ -197,9 +197,9 @@ balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
 
-better-events@^1.3.7:
-  version "1.3.7"
-  resolved "https://registry.yarnpkg.com/better-events/-/better-events-1.3.7.tgz#95e7b270bda5364c513bf1f57f32f1f30fb94509"
+better-events@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/better-events/-/better-events-2.0.0.tgz#25bdf76ef0ac46234906844adbac2ce2c31aab93"
 
 brace-expansion@^1.1.7:
   version "1.1.8"
