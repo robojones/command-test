@@ -35,6 +35,6 @@
     "mocha": "^3.5.0"
   },
   "dependencies": {
-    "better-events": "^2.0.0"
+    "better-events": "^3.0.3"
   }
 }
