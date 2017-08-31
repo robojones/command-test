@@ -3,7 +3,12 @@ The easy way to test commands.
 
 [![Build Status](https://travis-ci.org/robojones/command-test.svg?branch=master)](https://travis-ci.org/robojones/command-test)
 [![Test Coverage](https://codeclimate.com/github/robojones/command-test/badges/coverage.svg)](https://codeclimate.com/github/robojones/command-test/coverage)
-[![Issue Count](https://codeclimate.com/github/robojones/command-test/badges/issue_count.svg)](https://codeclimate.com/github/robojones/command-test)
+
+[![bitHound Code](https://www.bithound.io/github/robojones/command-test/badges/code.svg)](https://www.bithound.io/github/robojones/command-test)
+[![bitHound Overall Score](https://www.bithound.io/github/robojones/command-test/badges/score.svg)](https://www.bithound.io/github/robojones/command-test)
+[![bitHound Dependencies](https://www.bithound.io/github/robojones/command-test/badges/dependencies.svg)](https://www.bithound.io/github/robojones/command-test/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/robojones/command-test/badges/devDependencies.svg)](https://www.bithound.io/github/robojones/command-test/master/dependencies/npm)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Install
 
