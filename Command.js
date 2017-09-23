@@ -21,6 +21,8 @@ class Command extends BetterEvents {
   constructor(command, args = [], opts = {}) {
     super()
 
+    this.command = command
+
     const c = Object.assign({}, defaultConfig, opts)
     const child = spawn(command, args, c)
 
