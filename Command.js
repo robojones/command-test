@@ -15,13 +15,17 @@ class Command extends BetterEvents {
   /**
    * Create a new command.
    * @param {string} command - The name of the command.
-   * @param {string[]} args - Arguments for the command.
    * @param {{string: *}} opts - Options for the command.
    */
-  constructor(command, args = [], opts = {}) {
+  constructor(command, opts = {}) {
     super()
 
     this.command = command
+
+    const parts = command.split(' ')
+
+    command = parts.shift()
+    const args = parts
 
     const c = Object.assign({}, defaultConfig, opts)
     const child = spawn(command, args, c)
