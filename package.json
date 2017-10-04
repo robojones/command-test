@@ -29,12 +29,12 @@
   },
   "homepage": "https://github.com/robojones/command-test#readme",
   "devDependencies": {
-    "eslint": "^4.2.0",
+    "eslint": "^4.8.0",
     "eslint-config-ultra": "^0.4.5",
     "istanbul": "1.1.0-alpha.1",
-    "mocha": "^3.5.0"
+    "mocha": "^4.0.0"
   },
   "dependencies": {
-    "better-events": "^3.0.3"
+    "better-events": "^3.0.5"
   }
 }
